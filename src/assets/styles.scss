@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+* {
+    margin: 0; 
+    padding: 0;
+    border: 1px dashed lightcoral;
+}
+#main {
+    // margin: 0 auto;
+    // padding: 10px;
+    // width: 1200px;
+    background: lightblue;
+    border: 2px dashed darkred;
+    & .app {
+        height: inherit;
+        box-shadow: 0ch;
+        animation: 0ms;
+    }
+
+}
